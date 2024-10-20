@@ -63,7 +63,15 @@ You must deploy the contract with the following values: `shares - 1000` `name - 
 
 12. Inheritance
 
-- In Inheritance folder, Compile & Deploy `Salesperson.sol` & `EngineeringManager.sol` separately & write down each contracts address.
+- In Inheritance folder, Compile & Deploy `Salesperson.sol` & `EngineeringManager.sol` separately & write down each contracts address. Use the following values:
+**Salesperson**
+Hourly rate: 20 dollars an hour
+Id number: 55555
+Manager Id number: 12345
+**EngineeringManager**
+Annual salary: 200,000
+Id number: 54321
+Manager Id: 11111
 - Now choose `InheritanceSubmission.sol`, Compile & Deploy with the following values:
 
 \_salesPerson: `Salesperson Contract Address` \_engineeringManager: `EngineeringManager Contract Address`
